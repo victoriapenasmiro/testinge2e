@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Add PR template depending on label
-      uses: PokaInc/pr-template-action@v1.0.0
+      uses: mshick/add-pr-comment@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        template_dir: './.github/PULL_REQUEST_TEMPLATE/'
-        mapping: 'feature=pull_request_template/,create/'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        message: |
+          **Hello MAIN**
