@@ -1,1 +1,1 @@
-[test](?template=pull_request_template.md)
+template=pull_request_template.md
