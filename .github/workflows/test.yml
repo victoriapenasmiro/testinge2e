@@ -15,5 +15,4 @@ jobs:
       uses: mshick/add-pr-comment@v2
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        message: |
-          **Hello MAIN**
+        message-path: '.github/PULL_REQUEST_TEMPLATE/pull_request_template.md'
