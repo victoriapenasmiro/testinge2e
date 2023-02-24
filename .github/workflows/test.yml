@@ -15,4 +15,4 @@ jobs:
       uses: PokaInc/pr-template-action@v1.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        template_dir: '../PULL_REQUEST_TEMPLATE/pull_request_template.md'
+        template_dir: './../PULL_REQUEST_TEMPLATE/pull_request_template.md'
