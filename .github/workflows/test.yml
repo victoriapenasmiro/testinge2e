@@ -11,5 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
+    - name: Add PR template depending on label
+      uses: PokaInc/pr-template-action@v1.0.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        template_dir: '../PULL_REQUEST_TEMPLATE/pull_request_template.md'
