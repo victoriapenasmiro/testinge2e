@@ -1,0 +1,3 @@
+- [ ] Remove console.log used for debug.
+- [ ] avoid using the type 'any'.
+- [ ] Use type, not interface.
